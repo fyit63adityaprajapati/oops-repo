@@ -1,0 +1,243 @@
+class students:
+    print("welcome to results and sem1 completion")
+
+    def __init__(self):
+        self.name= str(input("your name : "))
+        self.registration_no= int(input("your id number : "))
+        self.no=int(input("what is your rollno.: "))
+        self.classm= ("A")
+
+    def internals(self):
+        print("clarify your internals marks? out of 40")
+        self.dbms= int(input("marks/dbms: "))
+        self.wp= int(input("marks/Wp: "))
+        self.math= int(input("marks/math: "))
+        self.Itools5= int(input("marks/ITools: "))
+        self.adp= int(input("marks/adp: "))
+        self.oops= int(input("marks/oops: "))
+        self.total= self.dbms+self.wp+ self.math+self.Itools5+self.adp+self.oops
+        print("Your total score in internals :",self.total)
+
+    def externals(self):
+        print("clarify your externals marks? out of 60")
+        self.dbms1= int(input("marks/dbms: "))
+        self.wp1= int(input("marks/wp: "))
+        self.math1= int(input("marks/math: "))
+        self.Itools1= int(input("marks/ITools: "))
+        self.adp1= int(input("marks/adp: "))
+        self.oops1= int(input("marks/oops: "))
+        self.total1= self.dbms1+self.wp1+self.math1+self.Itools1+self.adp1+self.oops1
+        print("Your total score in externals :",self.total1)
+    
+    def practicals(self):
+        print("clarify your practicals marks? out of 50")
+        self.dbms2= int(input("marks/dbms: "))
+        self.wp2= int(input("marks/wp: "))
+        self.adp2= int(input("marks/adp: "))
+        self.oops2= int(input("marks/oops: "))
+        self.Itools2=int(input("marks/Itools: "))
+        self.total2= self.dbms2+self.wp2+self.adp2+self.oops2+self.Itools2
+        print("Your total score in practiclals :",self.total2)
+    
+
+    def Globalgp(self):
+        self.a=10
+        self.b=9
+        self.c=8
+        self.d=7
+        self.e=6
+        self.f=5
+        self.g=4
+        self.h=0
+    def Globalcp(self):
+        self.v=3
+        self.z=2
+        self.u=(self.v+self.z)
+
+        
+    def Globalgrade(self):
+        self.y="O"
+        self.q="+A"
+        self.t="A"
+        self.r="+B"
+        self.l="B"
+        self.s="C"
+        self.p="D"
+        self.x="F"
+
+    def dbms4(self):
+        self.dbms3=self.dbms+self.dbms1+self.dbms2
+        if(self.dbms3>120):
+            print(self.a)
+        elif(self.dbms3>105):
+            print(self.b)
+        elif(self.dbms3>90):
+            print(self.c)
+        elif(self.dbms>83):
+            print(self.d)
+        elif(self.dbms3>75):
+            print(self.e)
+        elif(self.dbms3>68):
+            print(self.f)
+        elif(self.dbms>60):
+            print(self.g)
+        else:
+            print(self.h)
+
+    def wp4(self):
+        self.wp3=self.wp+self.wp1+self.wp2
+        if(self.wp3>120):
+            print(self.a)
+        elif(self.wp3>105):
+            print(self.b)
+        elif(self.wp3>90):
+            print(self.c)
+        elif(self.wp3>83):
+            print(self.d)
+        elif(self.wp3>75):
+            print(self.e)
+        elif(self.wp3>68):
+            print(self.f)
+        elif(self.wp3>60):
+            print(self.g)
+        else:
+            print(self.h)
+    
+    def adp4(self):
+        self.adp3=self.adp+self.adp1+self.adp2
+        if(self.adp3>120):
+            print(self.a)
+        elif(self.adp3>105):
+            print(self.b)
+        elif(self.adp3>90):
+            print(self.c)
+        elif(self.adp3>83):
+            print(self.d)
+        elif(self.adp3>75):
+            print(self.e)
+        elif(self.adp3>68):
+            print(self.f)
+        elif(self.adp3>60):
+            print(self.g)
+        else:
+            print(self.h)
+    
+    def oops4(self):
+        self.oops3=self.oops+self.oops1+self.oops2
+        if(self.oops3>120):
+            print(self.a)
+        elif(self.oops3>105):
+            print(self.b)
+        elif(self.oops3>90):
+            print(self.c)
+        elif(self.oops3>83):
+            print(self.d)
+        elif(self.oops3>75):
+            print(self.e)
+        elif(self.oops3>68):
+            print(self.f)
+        elif(self.oops3>60):
+            print(self.g)
+        else:
+            print(self.h)
+    
+    def Itools(self):
+        self.Itools6=self.Itools2+self.Itools1+self.Itools5
+        if(self.Itools6>120):
+            print(self.a)
+        elif(self.Itools6>105):
+            print(self.b)
+        elif(self.Itools6>90):
+            print(self.c)
+        elif(self.Itools6>83):
+            print(self.d)
+        elif(self.Itools6>75):
+            print(self.e)
+        elif(self.Itools6>68):
+            print(self.f)
+        elif(self.Itools6>60):
+            print(self.g)
+        else:
+            print(self.h)
+    
+    def math4(self):
+        self.math3=self.math+self.math1
+        if(self.math3>80):
+            print(self.a)
+        elif(self.math3>70):
+            print(self.b)
+        elif(self.math3>65):
+            print(self.c)
+        elif(self.math3>60):
+            print(self.d)
+        elif(self.math3>55):
+            print(self.e)
+        elif(self.math3>50):
+            print(self.f)
+        elif(self.math3>40):
+            print(self.g)
+        else:
+            print(self.h)
+        
+    def import_for_cg(self):
+        self.dbms7=self.dbms3*self.u
+        self.math7=self.math3*self.v
+        self.oops7=self.oops3*self.u
+        self.adp7=self.adp3*self.u
+        self.wp7=self.wp3*self.u
+        self.Itools7=self.Itools6*self.u
+        self.grand= self.dbms7+self.math7+self.oops7+self.adp7+self.wp7+self.Itools7
+        self.grand1=35
+    def final_sgpa(self):
+        self.sgpa=(self.grand/self.grand1)/10
+
+    def grade(self):
+        self.marks=self.total+self.total1+self.total2
+        if(self.marks>700):
+            print(self.y)
+        elif(self.marks>650):
+            print(self.q)
+        elif(self.marks>550):
+            print(self.t)
+        elif(self.marks>450):
+            print(self.r)
+        elif(self.marks>400):
+            print(self.l)
+        elif(self.marks>350):
+            print(self.s)
+        elif(self.marks>300):
+            print(self.p)
+        else:
+            print(self.x)
+            print("good bye! better luck next time")
+            print("enjoy ATKT Exams")
+        
+    def percentage(self):
+        self.total2=(self.total+self.total1+self.total2)/850*100
+        print(self.name,self.registration_no)
+        print(self.no,self.classm)
+        print(self.name,"your percentage is :",self.total2)
+        if(self.marks>250):
+            print("Your SGPA Points are : ",self.sgpa)
+        else:
+            print("tata bye bye khatam!!!!")
+        
+r1=students()
+r1.internals()
+r1.externals()
+r1.practicals()
+r1.Globalcp()
+r1.Globalgp()
+r1.Globalgrade()
+r1.dbms4()
+r1.wp4()
+r1.oops4()
+r1.adp4()
+r1.Itools()
+r1.math4()
+r1.import_for_cg()
+r1.final_sgpa()
+r1.grade()
+r1.percentage()
+
+
